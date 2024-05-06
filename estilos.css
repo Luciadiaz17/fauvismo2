@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+.nav > a{
+    text-decoration: none;
+}
+body{ background-color: #EFE6DD;}
+.fauvismo{
+    padding-left: 65px;
+}   
+.principales{
+    padding-top: 300px;
+    padding-left: 60px;
+}
+.representativas{
+    padding-top: 600px;
+    padding-left: 100px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 1300px;
+}
+footer > a{
+    text-decoration: none;
+}
+.henri{
+    padding-top: 120px;
+    padding-left: 90px;
+}
+.figuras2{
+    padding-top: 2000px;
+    padding-left: 300px; 
+}
+.figuras{
+    padding-top: 2500px;
+    padding-left: 300px;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 500px;
+    text-decoration: none;
+}
+.footer2 > a{
+    text-decoration: none;
+}
+.maurice{
+    padding-top: 120px;
+    padding-left: 90px;
+}
+.figuras1{
+    padding-top: 2350px;
+    padding-left: 300px;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 500px;
+}
+.footer3 > a{
+    text-decoration: none;
+}
+.andre{
+    padding-top: 120px;
+    padding-left: 90px;
+}
+.galeria{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.footer4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 4600px;
+    text-decoration: none;
+}
+.footer4 > a{
+    text-decoration: none;
+}
+.estilo1{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: League Spartan;
+    color: #BB4430;
+}
+input[type="submit"] {
+    border: 2px solid #BB4430; 
+    background-color: #BB4430; 
+    color: #EFE6DD; 
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="reset"] {
+    border: 2px solid #BB4430; 
+    background-color: #BB4430;
+    color: #EFE6DD; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-left: 10px;
+}
+.con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-left: 350px;
+        padding-top: 400px;
+        text-decoration: none;
+}
+.con > a{
+        text-decoration: none;
+}
+
