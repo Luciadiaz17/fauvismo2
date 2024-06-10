@@ -126,4 +126,26 @@ input[type="reset"] {
 .con > a{
         text-decoration: none;
 }
+.artistas{
+    padding-left: 60px;
+}
+.imagen {
+    transition: transform 0.3s ease-in-out;
+}
 
+.imagen:hover {
+    transform: scale(1.05);
+}
+
+.imagen:hover::after {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-line;
+    z-index: 999;
+}

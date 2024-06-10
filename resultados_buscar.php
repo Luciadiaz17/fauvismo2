@@ -1,91 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"type="text/css"href="estilos.css">
-    <link rel="shortcut icon" href="./logomin.png" type="image/x-icon">
-    <title>Galeria</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet"type="text/css"href="estilos.css">
+<link rel="shortcut icon" href="./logomin.png" type="image/x-icon">
+<title>Contacto</title>
 </head>
 <body>
-    <div style="width: 100%; height: 100%; justify-content: center; align-items: center; gap: 253px; display: inline-flex">
-        <div class="nav"><a href="index.html"><div style="width: 332px; height: 70px; color: #BB4430; font-size: 64px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">FAUVISMO</div></a></div>
-        <div style="width: 682px; height: 19px; justify-content: center; align-items: flex-start; gap: 21px; display: inline-flex">
-            <div class="nav"><a href="artistas.html"><div style="width: 80px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Artistas</div></a></div>
-            <div class="nav"><a href="galeria.html"><div style="width: 69px; height: 17px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Galeria</div></a></div>
-            <div class="nav"><a href="contacto.html"><div style="width: 85px; height: 18px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Contacto</div></a></div>
-            <form action="resultados_buscar.php" method="post">
-                <input type="search" name="buscar" placeholder="Artista" />
-                <input type="submit" value="Buscar">
-            </form>  
-        </div>
+  <div style="width: 100%; height: 100%; justify-content: center; align-items: center; gap: 253px; display: inline-flex">
+    <div class="nav"><a href="index.html"><div style="width: 332px; height: 70px; color: #BB4430; font-size: 64px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">FAUVISMO</div></a></div>
+    <div style="width: 682px; height: 19px; justify-content: center; align-items: flex-start; gap: 21px; display: inline-flex">
+        <div class="nav"><a href="2.html"><div style="width: 193px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Maurice de Vlaminck</div></a></div>
+        <div class="nav"><a href="3.html"><div style="width: 123px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Andre Derain</div></a></div>
+        <div class="nav"><a href="henri.html"><div style="width: 128px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Henri Matisse</div></a></div>
+        <div class="nav"><a href="galeria.html"><div style="width: 69px; height: 17px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Galeria</div></a></div>
+        <div class="nav"><a href="contacto.html"><div style="width: 85px; height: 18px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Contacto</div></a></div>
     </div>
-    <style>
-        /* Estilos para el formulario */
-        form {
-            display: flex;
-            flex-direction: row; /* Cambiar a fila */
-            align-items: center;
-            width: 200px; /* Ajustar el ancho según sea necesario */
-            margin-right: 100px;
-            margin-left: -35px;
-            padding: 20px;
-            border-radius: 10px;
-           
-        }
-    
-        label {
-            margin-right: 10px; /* Ajustar el margen para separación */
-            font-size: 15px;
-            color: #EFE6DD;
-;
-        }
-    
-        input[type="search"] {
-            padding: 10px;
-            width: 150px; /* Ajustar el ancho según sea necesario */
-            font-size: 13px;
-            outline: none;
-            margin-right: 10px; /* Espacio entre el campo de búsqueda y el botón */
-        }
-    
-        input[type="submit"] {
-            padding: 5px 15px;
-            background-color: #BB4430;
-            color: #EFE6DD;
-            border: none;
-            border-radius: 5px;
-            font-size: 13px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-    
-        input[type="submit"]:hover {
-            background-color: #ffffff;
-        }
-    </style>
-    <div class="galeria">
-    <div style="width: 100%; height: 100%; position: relative">
-    <img class="imagen" style="width: 749.82px; height: 606px; left: 0px; top: 0px; position: absolute" img src="./imagenes/imagen2.png" />
-    <img class="imagen" style="width: 750px; height: 606px; left: 545px; top: 660px; position: absolute" img src="./imagenes/image3.png" />
-    <img class="imagen" style="width: 477.60px; height: 606px; left: 817px; top: 0px; position: absolute" img src="./imagenes/image4.png" />
-    <img class="imagen" style="width: 510.62px; height: 601px; left: 784px; top: 1320px; position: absolute" img src="./imagenes/image10.png" />
-    <img class="imagen" style="width: 763.87px; height: 606px; left: 531px; top: 1980px; position: absolute" img src="./imagenes/image11.png" />
-    <img class="imagen" style="width: 415.87px; height: 606px; left: 3px; top: 1980px; position: absolute" img src="./imagenes/image12.png"/>
-    <img class="imagen" style="width: 714.06px; height: 606px; left: 3px; top: 1320px; position: absolute" img src="./imagenes/image13.png" />
-    <img class="imagen" style="width: 482.23px; height: 606px; left: 3px; top: 660px; position: absolute" img src="./imagenes/image14.png" />
-    <img class="imagen" style="width: 358.37px; height: 606px; left: 937px; top: 2640px; position: absolute" img src="./imagenes/image16.png" />
-    <img class="imagen" style="width: 842px; height: 606px; left: 3px; top: 2640px; position: absolute" img src="./imagenes/image15.png" />
-    <img class="imagen" style="width: 1286.76px; height: 1015px; left: 0px; top: 3300px; position: absolute" img src="./imagenes/image17.png" />
 </div>
-</div>
-</body>
-<footer class="footer4">
+<div class="desktop-3">
+    <div class="desktop-3-child">
+    </div>
+    <div class="contacto">BÚSQUEDA</div>
+
+
+    
+        <div class="container">
+        <?php
+	include('conexion.php');
+
+	$buscar = $_POST['buscar'];
+	echo "Su consulta: <em>".$buscar."</em><br>";
+
+	$consulta = mysqli_query($conexion, "SELECT * FROM artistas WHERE nombre LIKE '%$buscar%' ");
+?>
+<article style="">
+	<p>Cantidad de Resultados: 
+	<?php
+		$nros=mysqli_num_rows($consulta);
+		echo $nros;
+	?>
+	</p>
+    
+	<?php
+		while($resultados=mysqli_fetch_array($consulta)) {
+	?>
+    <p>
+    <?php	
+			echo $resultados['nombre'];
+			echo $resultados['bio'];
+	
+	?>
+    </p>
+    <hr/>
+    <?php
+		}
+
+		mysqli_free_result($consulta);
+		mysqli_close($conexion);
+
+	?>
+
+        </div>
+<footer class="con">
     <div style="width: 100%; height: 100%; position: relative">
         <div style="width: 332px; height: 70px; left: 175px; top: 0px; position: absolute; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">FAUVISMO</div>
         <div style="width: 682px; height: 19px; left: 0px; top: 70px; position: absolute; justify-content: center; align-items: flex-start; gap: 21px; display: inline-flex">
             <div style="width: 193px; height: 19px; text-align: center; color: #BB4430; font-size: 12px; font-family: League Spartan; font-weight: 900; word-wrap: break-word;">Maurice de Vlaminck</div>
-            <div style="width: 123px; height: 19px; text-align: center; color: #BB4430; font-size: 12px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">André Derain</div>
+            <div style="width: 123px; height: 19px; text-align: center; color: #BB4430; font-size: 12px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Andre Derain</div>
             <div style="width: 128px; height: 19px; text-align: center; color: #BB4430; font-size: 12px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Henri Matisse</div>
             <div style="width: 69px; height: 17px; text-align: center; color: #BB4430; font-size: 12px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Galeria</div>
             <div style="width: 85px; height: 18px; text-align: center; color: #BB4430; font-size: 12px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Contacto</div>

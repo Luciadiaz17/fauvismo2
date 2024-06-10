@@ -11,14 +11,85 @@
     <div style="width: 100%; height: 100%; justify-content: center; align-items: center; gap: 253px; display: inline-flex">
         <div class="nav"><a href="index.html"><div style="width: 332px; height: 70px; color: #BB4430; font-size: 64px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">FAUVISMO</div></a></div>
         <div style="width: 682px; height: 19px; justify-content: center; align-items: flex-start; gap: 21px; display: inline-flex">
-            <div class="nav"><a href="2.html"><div style="width: 193px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Maurice de Vlaminck</div></a></div>
-            <div class="nav"><a href="3.html"><div style="width: 123px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">André Derain</div></a></div>
-            <div class="nav"><a href="henri.html"><div style="width: 128px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Henri Matisse</div></a></div>
+            <div class="nav"><a href="artistas.html"><div style="width: 80px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Artistas</div></a></div>
             <div class="nav"><a href="galeria.html"><div style="width: 69px; height: 17px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Galeria</div></a></div>
             <div class="nav"><a href="contacto.html"><div style="width: 85px; height: 18px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Contacto</div></a></div>
+            <form action="resultados_buscar.php" method="post">
+                <input type="search" name="buscar" placeholder="Artista" />
+                <input type="submit" value="Buscar">
+            </form>  
+            <div class="login-buttons">
+                <a href="form_login.html">Iniciar Sesión</a>
+            </div>
         </div>
     </div>
-    <img style="width: 100%; height: 100%" img src="./imagenes/image2.png" />
+    <style>
+        /* Estilos para el formulario */
+        form {
+            display: flex;
+            flex-direction: row; /* Cambiar a fila */
+            align-items: center;
+            width: 200px; /* Ajustar el ancho según sea necesario */
+            margin-right: 100px;
+            margin-left: -35px;
+            padding: 20px;
+            border-radius: 10px;
+           
+        }
+    
+        label {
+            margin-right: 10px; /* Ajustar el margen para separación */
+            font-size: 15px;
+            color: #EFE6DD;
+;
+        }
+    
+        input[type="search"] {
+            padding: 10px;
+            width: 150px; /* Ajustar el ancho según sea necesario */
+            font-size: 13px;
+            outline: none;
+            margin-right: 10px; /* Espacio entre el campo de búsqueda y el botón */
+        }
+    
+        input[type="submit"] {
+            padding: 5px 15px;
+            background-color: #BB4430;
+            color: #EFE6DD;
+            border: none;
+            border-radius: 5px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+    
+        input[type="submit"]:hover {
+            background-color: #ffffff;
+        }
+        .login-buttons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            font-family: League Spartan;
+        }
+
+        .login-buttons a {
+            padding: 5px 15px;
+            background-color: #BB4430;
+            color: #EFE6DD;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .login-buttons a:hover {
+            background-color: #ffffff;
+        }
+    </style>
+    <img style="width: 100%; height: 100%; padding-top: 60px;" img src="./imagenes/image2.png" />
     <div style="width: 100%; height: 100%; text-align: center; padding-top: 85px; padding-bottom: 85px; color: #BB4430; font-size: 40px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">LA PRIMERA VANGUARDIA</div>
 <div class="fauvismo">
     <div style="width: 100%; height: 100%; position: relative">

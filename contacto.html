@@ -10,13 +10,59 @@
   <div style="width: 100%; height: 100%; justify-content: center; align-items: center; gap: 253px; display: inline-flex">
     <div class="nav"><a href="index.html"><div style="width: 332px; height: 70px; color: #BB4430; font-size: 64px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">FAUVISMO</div></a></div>
     <div style="width: 682px; height: 19px; justify-content: center; align-items: flex-start; gap: 21px; display: inline-flex">
-        <div class="nav"><a href="2.html"><div style="width: 193px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Maurice de Vlaminck</div></a></div>
-        <div class="nav"><a href="3.html"><div style="width: 123px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Andre Derain</div></a></div>
-        <div class="nav"><a href="henri.html"><div style="width: 128px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Henri Matisse</div></a></div>
+        <div class="nav"><a href="artistas.html"><div style="width: 80px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Artistas</div></a></div>
         <div class="nav"><a href="galeria.html"><div style="width: 69px; height: 17px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Galeria</div></a></div>
         <div class="nav"><a href="contacto.html"><div style="width: 85px; height: 18px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Contacto</div></a></div>
+        <form action="resultados_buscar.php" method="post">
+            <input type="search" name="buscar" placeholder="Artista" />
+            <input type="submit" value="Buscar">
+        </form>  
     </div>
 </div>
+<style>
+    /* Estilos para el formulario */
+    form {
+        display: flex;
+        flex-direction: row; /* Cambiar a fila */
+        align-items: center;
+        width: 200px; /* Ajustar el ancho según sea necesario */
+        margin-right: 100px;
+        margin-left: -35px;
+        padding: 20px;
+        border-radius: 10px;
+       
+    }
+
+    label {
+        margin-right: 10px; /* Ajustar el margen para separación */
+        font-size: 15px;
+        color: #EFE6DD;
+;
+    }
+
+    input[type="search"] {
+        padding: 10px;
+        width: 150px; /* Ajustar el ancho según sea necesario */
+        font-size: 13px;
+        outline: none;
+        margin-right: 10px; /* Espacio entre el campo de búsqueda y el botón */
+    }
+
+    input[type="submit"] {
+        padding: 5px 15px;
+        background-color: #BB4430;
+        color: #EFE6DD;
+        border: none;
+        border-radius: 5px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #ffffff;
+    }
+</style>
     <div style="width: 100%; height: 100%; position: relative;">
         <img style="width: 630px; height: 499.80px; left: 0px; top: 0px; position: absolute; padding-top: 50px; padding-left: 35px;" img src="./imagenes/image46.png" />
         <div style="width: 144px; height: 135px; left: 0px; top: 521px; position: absolute; padding-top: 60px; padding-left: 35px;"><span style="color: #040D2E; font-size: 15px; font-family: League Spartan; font-weight: 900; line-height: 27px; letter-spacing: 0.90px; word-wrap: break-word">La alegria de vivir<br/></span><span style="color: #040D2E; font-size: 15px; font-family: League Spartan; font-weight: 400; line-height: 27px; letter-spacing: 0.90px; word-wrap: break-word">Henri Matisse<br/>Oleo(176 x 240 cm.)<br/>1906</span></div>

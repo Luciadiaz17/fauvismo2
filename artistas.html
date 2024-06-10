@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"type="text/css"href="estilos.css">
+    <link rel="shortcut icon" href="./logomin.png" type="image/x-icon">
+    <title>Artistas</title>
+</head>
+<body>
+    <div style="width: 100%; height: 100%; justify-content: center; align-items: center; gap: 253px; display: inline-flex">
+        <div class="nav"><a href="index.html"><div style="width: 332px; height: 70px; color: #BB4430; font-size: 64px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">FAUVISMO</div></a></div>
+        <div style="width: 682px; height: 19px; justify-content: center; align-items: flex-start; gap: 21px; display: inline-flex">
+            <div class="nav"><a href="artistas.html"><div style="width: 80px; height: 19px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Artistas</div></a></div>
+            <div class="nav"><a href="galeria.html"><div style="width: 69px; height: 17px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Galeria</div></a></div>
+            <div class="nav"><a href="contacto.html"><div style="width: 85px; height: 18px; text-align: center; color: #BB4430; font-size: 15px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">Contacto</div></a></div>
+            <form action="resultados_buscar.php" method="post">
+                <input type="search" name="buscar" placeholder="Artista" />
+                <input type="submit" value="Buscar">
+            </form>  
+        </div>
+    </div>
+    <style>
+        /* Estilos para el formulario */
+        form {
+            display: flex;
+            flex-direction: row; /* Cambiar a fila */
+            align-items: center;
+            width: 200px; /* Ajustar el ancho según sea necesario */
+            margin-right: 100px;
+            margin-left: -35px;
+            padding: 20px;
+            border-radius: 10px;
+           
+        }
+    
+        label {
+            margin-right: 10px; /* Ajustar el margen para separación */
+            font-size: 15px;
+            color: #EFE6DD;
+;
+        }
+    
+        input[type="search"] {
+            padding: 10px;
+            width: 150px; /* Ajustar el ancho según sea necesario */
+            font-size: 13px;
+            outline: none;
+            margin-right: 10px; /* Espacio entre el campo de búsqueda y el botón */
+        }
+    
+        input[type="submit"] {
+            padding: 5px 15px;
+            background-color: #BB4430;
+            color: #EFE6DD;
+            border: none;
+            border-radius: 5px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+    
+        input[type="submit"]:hover {
+            background-color: #ffffff;
+        }
+    </style>
+
+    <div class="artistas">
+        <div style="width: 100%; height: 100%; position: relative;">
+            <div style="width: 800px; height: 70px; left: 185px; top: 162px; position: absolute; text-align: center; color: #BB4430; font-size: 40px; font-family: League Spartan; font-weight: 900; word-wrap: break-word">PRINCIPALES FIGURAS</div>
+            <a href="1.html"><div style="width: 213px; height: 42px; left: 43px; top: 533px; position: absolute; text-align: center; color: #040D2E; font-size: 15px; font-family: League Spartan; font-weight: 400; line-height: 22.50px; letter-spacing: 0.90px; word-wrap: break-word">Henri Matisse</div></a>
+            <a href="3.html"><div style="width: 213px; height: 42px; left: 479px; top: 534px; position: absolute; text-align: center; color: #040D2E; font-size: 15px; font-family: League Spartan; font-weight: 400; line-height: 22.50px; letter-spacing: 0.90px; word-wrap: break-word">André Derain</div></a>
+            <a href="2.html"><div style="width: 271px; height: 42px; left: 885px; top: 544px; position: absolute; text-align: center; color: #040D2E; font-size: 15px; font-family: League Spartan; font-weight: 400; word-wrap: break-word">Maurice de Vlaminck</div></a>
+            <img style="width: 200px; height: 200px; left: 49px; top: 293px; position: absolute" img src="./imagenes/image7.png" />
+            <img style="width: 200px; height: 200px; left: 485px; top: 293px; position: absolute" img src="./imagenes/image8.png" />
+            <img style="width: 200px; height: 200px; left: 920px; top: 293px; position: absolute" img src="./imagenes/image9.png" />
+        </div>  
+    </div>
